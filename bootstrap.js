@@ -55,12 +55,6 @@
 /******/ 		"./pkg/smart_panda_bg.wasm": function() {
 /******/ 			return {
 /******/ 				"./smart_panda": {
-/******/ 					"__wbindgen_string_new": function(p0i32,p1i32) {
-/******/ 						return installedModules["./pkg/smart_panda.js"].exports["__wbindgen_string_new"](p0i32,p1i32);
-/******/ 					},
-/******/ 					"__wbindgen_object_drop_ref": function(p0i32) {
-/******/ 						return installedModules["./pkg/smart_panda.js"].exports["__wbindgen_object_drop_ref"](p0i32);
-/******/ 					},
 /******/ 					"__wbg_alert_d5ae7b99faf0a48f": function(p0i32,p1i32) {
 /******/ 						return installedModules["./pkg/smart_panda.js"].exports["__wbg_alert_d5ae7b99faf0a48f"](p0i32,p1i32);
 /******/ 					},
@@ -73,8 +67,8 @@
 /******/ 					"__wbg_error_f7214ae7db04600c": function(p0i32,p1i32) {
 /******/ 						return installedModules["./pkg/smart_panda.js"].exports["__wbg_error_f7214ae7db04600c"](p0i32,p1i32);
 /******/ 					},
-/******/ 					"__widl_f_log_1_": function(p0i32) {
-/******/ 						return installedModules["./pkg/smart_panda.js"].exports["__widl_f_log_1_"](p0i32);
+/******/ 					"__wbindgen_object_drop_ref": function(p0i32) {
+/******/ 						return installedModules["./pkg/smart_panda.js"].exports["__wbindgen_object_drop_ref"](p0i32);
 /******/ 					},
 /******/ 					"__wbg_new_886f15c1b20b061b": function(p0i32,p1i32) {
 /******/ 						return installedModules["./pkg/smart_panda.js"].exports["__wbg_new_886f15c1b20b061b"](p0i32,p1i32);
@@ -207,7 +201,7 @@
 /******/ 				promises.push(installedWasmModuleData);
 /******/ 			else {
 /******/ 				var importObject = wasmImportObjects[wasmModuleId]();
-/******/ 				var req = fetch(__webpack_require__.p + "" + {"./pkg/smart_panda_bg.wasm":"556eb20e53f9fcada44a"}[wasmModuleId] + ".module.wasm");
+/******/ 				var req = fetch(__webpack_require__.p + "" + {"./pkg/smart_panda_bg.wasm":"8149cd9602c7ae2de47f"}[wasmModuleId] + ".module.wasm");
 /******/ 				var promise;
 /******/ 				if(importObject instanceof Promise && typeof WebAssembly.compileStreaming === 'function') {
 /******/ 					promise = Promise.all([WebAssembly.compileStreaming(req), importObject]).then(function(items) {
